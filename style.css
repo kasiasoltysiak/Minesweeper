@@ -101,8 +101,19 @@ h1 {
   text-transform: uppercase;
 }
 
+.cell-clicked {
+  background-color: beige;
+  cursor: not-allowed;
+}
 /* # Utilities */
 
 .hidden {
   display: none;
+}
+
+.cell-bomb {
+  background-color: rgb(241, 117, 78);
+	background-image: url('images/bomb.png');
+	background-size: contain;
+	cursor: not-allowed;
 }
